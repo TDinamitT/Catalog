@@ -103,8 +103,53 @@
 }
 
 .header{
+	margin-top:310px;
+	text-align: center;
+	font-size: xx-large;
+}
+.header2{
+	margin-top:10px;
+	text-align: center;
+	font-size: xx-large;
+}
+
+.site-ava{
 	text-align: center;
 }
+.crate{
+	width: 90px;
+    in-height: 350px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    border-radius: 4px;
+    transition: 0.2s;
+	
+	position: relative;
+	top:-200px;
+	left: 1350px;
+}
+
+.crate:hover{
+	box-shadow: 4px 8px 16px rgba(255, 102, 51, 0.2);
+}
+
+.header_block{
+	position: fixed;
+	
+	border-bottom-style: solid;
+	border-bottom-color: #DB5015;
+	margin-bottom: 40px;
+	background-color: white;
+	
+	height: 200px;
+	width: 100%;
+	top: 0px;
+	padding-top: 10px;
+	z-index: 100; 
+	
+}
+
+ 
 
 
 
